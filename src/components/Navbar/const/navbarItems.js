@@ -2,44 +2,37 @@ import PeopleIcon from '@mui/icons-material/People';
 import ImageIcon from '@mui/icons-material/Image';
 import PublicIcon from '@mui/icons-material/Public';
 import SettingsEthernetIcon from '@mui/icons-material/SettingsEthernet';
-import SettingsInputComponentIcon from '@mui/icons-material/SettingsInputComponent';
 import DnsIcon from '@mui/icons-material/Dns';
 
 export const mainNavbarItems = [
     {
         id: 0,
         icon: <PeopleIcon />,
-        label: 'Authentication',
+        label: 'Авторизація',
         route: 'authentication',
     },
     {
         id: 1,
         icon: <DnsIcon />,
-        label: 'Database',
+        label: 'Ділянки землі',
         route: 'database',
     },
     {
         id: 2,
         icon: <ImageIcon />,
-        label: 'Storage',
+        label: 'Переглянути заброньовані ділянки',
         route: 'storage',
     },
     {
         id: 3,
         icon: <PublicIcon />,
-        label: 'Hosting',
+        label: 'Переглянути придбані ділянки',
         route: 'hosting',
     },
     {
         id: 4,
         icon: <SettingsEthernetIcon />,
-        label: 'Functions',
+        label: 'Інструкції для придбання',
         route: 'functions',
-    },
-    {
-        id: 5,
-        icon: <SettingsInputComponentIcon />,
-        label: 'Machine learning',
-        route: 'machine-learning',
     },
 ]

@@ -54,7 +54,7 @@ const Header = ({ title }) => {
                 <Typography
                     sx={headerStyles.link}
                 >
-                    Go to docs
+                    Нові пропозиції
                 </Typography>
                 <NotificationBell
                     iconColor="white"
@@ -73,7 +73,7 @@ const Header = ({ title }) => {
                         sx={headerStyles.webButton}
                         variant="outlined"
                     >
-                        Web setup
+                        Підтримка
                     </CommonButton>
                     <Tooltip
                         title="Help"

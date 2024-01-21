@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
-import Authentication from './pages/Authentication/Authentication';
-import MachineLearning from './pages/MachineLearning/MachineLearning';
-import Hosting from './pages/Hosting/Hosting';
-import Functions from './pages/Functions/Functions';
-import Database from './pages/Database/Database';
-import Storage from './pages/Storage/Storage';
+import Authentication from './pages/Authentication/Authentication.js';
+import MachineLearning from './pages/MachineLearning/MachineLearning.js';
+import Hosting from './pages/Hosting/Hosting.js';
+import Functions from './pages/Functions/Functions.js';
+import Database from './pages/Database/Database.js';
+import Storage from './pages/Storage/Storage.js';
 import { ThemeProvider } from '@mui/material/styles';
-import { dashboardTheme } from './dashboardTheme';
+import { dashboardTheme } from './dashboardTheme.js';
 
 ReactDOM.render(
   <ThemeProvider theme={dashboardTheme}>
@@ -35,7 +35,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

@@ -8,7 +8,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Authentication from './pages/Authentication/Authentication.js';
+import Authentication from './pages/Authentication/Authentication';
 import MachineLearning from './pages/MachineLearning/MachineLearning.js';
 import Hosting from './pages/Hosting/Hosting.js';
 import Functions from './pages/Functions/Functions.js';
